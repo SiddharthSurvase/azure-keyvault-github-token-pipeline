@@ -12,7 +12,7 @@ stages:
     - task: AzureKeyVault@2
       inputs:
         azureSubscription: 'azure-kv-connection'
-        KeyVaultName: 'kv-github-demo'
+        KeyVaultName: 'kv-github-demo1'
         SecretsFilter: 'github-token'
         RunAsPreJob: true
 
